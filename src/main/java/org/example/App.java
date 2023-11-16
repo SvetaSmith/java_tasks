@@ -82,4 +82,23 @@ public class App
         return res;
     }
 
+    public static void printNumbers(int lastNumber)
+    {
+        // i — это сокращение от index (порядковый номер)
+        // Используется по общему соглашению во множестве языков как счетчик цикла
+        var i = 1;
+
+        while (i <= lastNumber) {
+            System.out.println(i);
+            i = i + 1;
+        }
+        System.out.println("finished!");
+    }
+
+/*App.printNumbers(3);
+// => 1
+// => 2
+// => 3
+// => finished!*/
+
 }
